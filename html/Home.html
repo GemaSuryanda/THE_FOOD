@@ -1,0 +1,55 @@
+<html>
+    <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="../node_modules/css/material-icons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+       <div id="abc"></div>
+       <img id="Gambar"></img>
+       
+       <div class="fixed-action-btn">
+           <a class="btn-floating btn-large red modal-trigger" href="#modal1">
+               <i class="large material-icons">add</i>
+           </a>
+           <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4 class="center-align tulisan">BANTUAN ANDA</h4>
+              <div>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field">
+                                <input placeholder="Masukkan" id="input_bantuan" type="text" class="validate tulisan">
+                                <label for="input_bantuan"></label>
+                                <div class="container">
+                                  <div class="drop">
+                                    <div class="uploader">
+                                      <label class="drop-label">Drag and drop images here</label>
+                                      <input type="file" class="image-upload" id="photo" name="photo" accept="image/*" multiple>
+                                    </div>
+                                    <div id="image-preview"></div>
+                                  </div>
+                                </div>    
+                                <a id="publish" class="modal-close waves-effect waves-effect red waves-light btn">Publish</a>
+                            </div>                                
+                    </form>
+                </div>
+            </div>
+            </div>
+            </div>
+       </div>
+           
+           <a class="btn-floating yellow next"><i class="material-icons">people</i></a>
+           
+       </div>
+       <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+       <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+       <script src="../js/jquery.imagereader-1.1.0.js"></script>
+       <script src="../js/Home.js"></script>
+
+    </body>
+</html>
