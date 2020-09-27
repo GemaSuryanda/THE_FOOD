@@ -1,4 +1,5 @@
 $('.modal').modal();
+//modal hyyyy
 $('.fixed-action-btn').floatingActionButton();
 $('#join').click(function(){
     var a = $("#input_name").val();
